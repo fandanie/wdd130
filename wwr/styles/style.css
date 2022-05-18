@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+body {
+    max-width: 1600px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: chocolate;
+}
+
+nav a {
+    text-align: center;
+    background-color: rgb(34, 152, 207);
+    color: rgb(10, 10, 10);
+    text-decoration: none;
+}
+
+h1,
+h4 {
+    text-align: center;
+    color: beige;
+}
+
+#hero-img {
+    width: 100;
+}
+
+.botton-box {
+    text-align: center;
+}
+
+header {
+    background-color: rgb(199, 121, 43);
+}
+
+nav a:hover {
+    background-color: bisque;
+    color: goldenrod;
+    text-decoration: underline;
+}
+
+.icon {
+    width: 80px;
+}
+
+.home-title {
+    color: blanchedalmond;
+}
+
+.book {
+    background-color: blanchedalmond;
+    color: rgb(7, 7, 7);
+    text-decoration: none;
+}
+
+.join {
+    background-color: brown;
+    color: rgb(205, 255, 224);
+    text-decoration: none;
+}
+
+.book:hover {
+    background-color: chocolate;
+    color: rgb(14, 13, 13);
+}
+
+.join:hover {
+    background-color: darkgoldenrod;
+    color: rgb(73, 73, 100);
+}
+
+.msg {
+    background-color: rgb(221, 185, 185);
+}
+
+.msg h2 {
+    color: rgb(8, 8, 8);
+}
+
+.msj p {
+    color: coral;
+}
+
+main section {
+    text-align: center;
+}
+
+#background {
+    height: 750;
+    background-color: rgb(104, 79, 79);
+}
+
+footer {
+    background-color: darkorange;
+    color: beige;
+    text-decoration: underline;
+}
+
+footer a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: rgb(173, 151, 151);
+}
+
+h3 {
+    text-decoration: underline;
+}
