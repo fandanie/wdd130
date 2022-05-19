@@ -33,7 +33,7 @@ h4 {
 }
 
 #hero-img {
-    width: 100;
+    width: 100px;
 }
 
 .botton-box {
@@ -116,7 +116,7 @@ nav a:hover {
 
 main section img {
     box-sizing: border-box;
-    border: 200 solid salmon;
+    border: 200px solid salmon;
 }
 
 main section {
