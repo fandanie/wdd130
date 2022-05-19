@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
 body {
     max-width: 1600px;
-    margin: 0 auto;
+    margin: 0;
+    padding: 0;
     text-align: center;
     background-color: chocolate;
 }
@@ -11,12 +12,24 @@ nav a {
     background-color: rgb(34, 152, 207);
     color: rgb(10, 10, 10);
     text-decoration: none;
+    font-family: 'Klee One', cursive;
+    padding: 10px;
+}
+
+#logo_link {
+    padding-top: 5px;
 }
 
 h1,
+h2 {
+    font-family: 'Galindo', cursive;
+    margin: 0;
+}
+
 h4 {
     text-align: center;
     color: beige;
+    font-family: 'Klee One', cursive;
 }
 
 #hero-img {
@@ -32,29 +45,38 @@ header {
 }
 
 nav a:hover {
-    background-color: bisque;
+    background-color: rgb(17, 17, 16);
     color: goldenrod;
     text-decoration: underline;
 }
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 .home-title {
     color: blanchedalmond;
+    font-family: 'Glass Antiqua', cursive;
+    padding: 15px 30px;
+    margin-top: 10px;
 }
 
 .book {
     background-color: blanchedalmond;
     color: rgb(7, 7, 7);
     text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .join {
     background-color: brown;
     color: rgb(205, 255, 224);
     text-decoration: none;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover {
@@ -69,14 +91,32 @@ nav a:hover {
 
 .msg {
     background-color: rgb(221, 185, 185);
+    padding: 35px;
 }
 
 .msg h2 {
     color: rgb(8, 8, 8);
+    font-family: 'Poor Story', cursive;
 }
 
-.msj p {
-    color: coral;
+.msg p {
+    color: rgb(31, 30, 30);
+    padding-bottom: 15px;
+}
+
+.camping-card,
+.rapids-card,
+.rivers-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #c2a175;
+}
+
+main section img {
+    box-sizing: border-box;
+    border: 200 solid salmon;
 }
 
 main section {
@@ -84,14 +124,20 @@ main section {
 }
 
 #background {
-    height: 750;
+    height: 750px;
     background-color: rgb(104, 79, 79);
+}
+
+p {
+    font-family: 'Otomanopee One', sans-serif;
 }
 
 footer {
     background-color: darkorange;
     color: beige;
-    text-decoration: underline;
+    text-decoration: none;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a {
@@ -99,10 +145,14 @@ footer a {
     text-decoration: none;
 }
 
+footer .social img {
+    padding-top: 15px;
+}
+
 footer a:hover {
     color: rgb(173, 151, 151);
 }
 
-h3 {
-    text-decoration: underline;
+#hero-img {
+    width: 100%;
 }
